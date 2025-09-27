@@ -34,11 +34,6 @@ git commit -m "Update site"
 git push
 ```
 
-## Editing notes
-- I keep the intro and projects in `index.html`
-- I add awards and experience in their sections
-- I avoid em dashes - prefer hyphens or colons
-
 ## Credits
 - Icons are native emoji for performance
 - Built by and © Ratneshwaran Maheswaran
