@@ -34,6 +34,7 @@ body {
   line-height: 1.6;
   background: var(--bg);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 .container {
@@ -88,11 +89,15 @@ body {
 .nav__list a:hover, .nav__list a:focus { text-decoration: underline; }
 
 .theme-toggle {
-  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .icon-btn {
@@ -239,10 +244,14 @@ body {
 /* Mobile optimizations */
 @media (max-width: 520px) {
   .container { padding: 0 12px; }
-  .nav__list { gap: 8px; }
+  .header-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .nav { width: 100%; justify-content: space-between; }
+  .nav__list { gap: 6px; }
   .brand__tag { display: none; }
   .btn { padding: 9px 12px; }
-  .theme-toggle { padding: 6px 10px; }
+  .icon-btn { width: 40px; height: 40px; font-size: 18px; }
+  .theme-toggle { width: 40px; height: 40px; }
+  .section { padding: 24px 0; }
 }
 
 
