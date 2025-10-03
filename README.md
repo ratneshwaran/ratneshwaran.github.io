@@ -14,7 +14,7 @@ I built this lightweight, accessible personal site to share my work in healthcar
 ## Project structure
 - `index.html` - site markup
 - `styles.css` - styles (light and dark, responsive)
-- `R_Maheswaran_CV_2025_V5.pdf` - my CV
+- `R_Maheswaran_CV_2025_V6.pdf` - my CV
 - `IMG_8183.jpg` - photo used in the hero
 
 ## Run locally
