@@ -25,7 +25,7 @@ cd C:\Users\ratne\Downloads\Website_Ratnesh
 powershell -Command "Start-Process http://localhost:8080"; python -m http.server 8080
 ```
 
-## Deploy
+## Deployment
 This is a GitHub Pages user site. Pushing to `main` updates `https://ratneshwaran.github.io/` automatically.
 
 ```powershell
