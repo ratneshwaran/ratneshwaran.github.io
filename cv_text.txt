@@ -1,0 +1,109 @@
+﻿Ratneshwaran Maheswaran
+London, UK ???ratneshwaran.maheswaran.21@ucl.ac.uk ???+44 (0)7824 388253
+/linkedinLinkedIn /githubGitHub /gl???bePortfolio
+Education
+University College London (UCL), UK 2024 - Present
+MSc Artificial Intelligence for Biomedicine and Healthcare
+Predicted Grade: Distinction
+The University of Nottingham, UK 2021 - 2024
+BEng (Hons) Electronic and Computer Engineering
+Grade: 2.1.
+Experience
+UCL Centre for Artificial Intelligence October 2025 - Present
+Agentic AI Researcher (in collaboration with Freedom from Torture, UK Charity)
+???Prototyping multilingual mental health conversational agents using LLMs and agentic AI frameworks (Lang-
+Graph, CrewAI).
+???Partnering with Freedom from Torture to ensure trauma-informed, culturally sensitive design and deployment.
+???Collaborating with clinical researchers to embed evidence-based therapeutic strategies into AI-driven systems.
+???Developing synthetic clinician???patient dialogue datasets to support model training and evaluation.
+???Architecting safe and interpretable agentic AI workflows for reasoning and planning in sensitive contexts.
+???Integrating and testing LLM services (ChatGPT, Claude, Llama, Groq, AWS Bedrock) within cloud-based
+pipelines.
+Secrier Lab, UCL Genetics Institute March - September 2025
+AI & Genomics Researcher
+???Built scalable ML pipeline (PyTorch, scvi-tools, Scanpy) for analysing millions of single-cell RNA-seq datapoints
+across multiple cancer types.
+???Applied and benchmarked foundation models (scBERT, scGPT, Geneformer, LangCell) for classification and
+state prediction, achieving strong performance on Accuracy, F1, AUROC, and AUPRC.
+???Developed novel zero-shot annotation techniques and improved cross-dataset generalisation under batch effects
+using dimensionality reduction (UMAP).
+???Produced actionable insights into data-driven cancer classification, with a reproducible framework and pre-print
+planned for 2026.
+Open-Source Assistive Devices (OPAD), University of Nottingham September 2022 - July 2024
+President, Faculty of Engineering Society
+???Directed 12+ student-led projects developing assistive and medical devices, combining hardware, software, and
+data pipelines.
+???Applied machine learning to optimise device performance and automate data collection, with applications
+aligned to NHS needs.
+???Oversaw technical operations (circuit design, embedded systems, analytics) while coordinating cross-disciplinary
+student teams.
+???Secured ??1500 in grant funding to expand development and support community-focused engineering impact.
+40seconds.org (Ratneshwaran Foundation) January 2020 - 2023 (Currently in Hiatus)
+Founder & CEO (Non-profit)
+???Founded global non-profit promoting mental health awareness and human rights among youth.
+1
+
+???Directed 5+ initiatives, 30+ articles, 1 research project, and led 120+ volunteers across 19 countries.
+???Raised ??2000 for Covid-19 relief; currently sustained by core team during academic commitments.
+Research Interests
+Agentic AI, Efficient Machine Learning, Foundation Models, Natural Language Processing (NLP), Large-Scale Data
+Analytics, High-Performance Computing
+Skills
+Programming: Python, SQL, C/C++, MATLAB, Java
+Frameworks & Libraries: PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Scanpy, Lang-
+Chain, OpenAI APIs
+Tools & Platforms: Git, Docker, FastAPI, PostgreSQL, Node.js, React, LaTeX, CUDA
+Hardware & Embedded: STM32, ESP32, Arduino, Raspberry Pi; I2C/SPI; PID control; ADC & analog circuit
+design (BJT, MOSFET)
+Publications & Open-source Projects
+AI Agent for Literature Review (LitAgent) 2025
+???LangGraph-driven multi-agent system automating literature reviews across arXivandPubMed, with metadata
+enrichment from Crossref.
+???Integrated agents ( SearchAgent ,SummarizerAgent ,CriticAgent ,ComparatorAgent ) enabling structured synthe-
+sis, gap analysis, and future work identification.
+???Supports multiple output formats including Markdown, JSON, and CSV for paper metadata.
+???Provides both CLI and REST API access, alongside a React/Vite/Tailwind frontend for interactive exploration.
+???Incorporates user-configurable search filters and accountability checks via CriticAgent to flag overclaims and
+weak reproducibility.
+???GitHub
+Enhancing Aspect-Based Sentiment Analysis and Review Reading Comprehension with Adversarial
+Training and Hierarchical Aggregation in BERT-based Models 2025
+???Improved BERT for Aspect Extraction, Sentiment Classification, and Review Comprehension.
+???Combined adversarial training with P-SUM/H-SUM, surpassing prior state-of-the-art in domain-specific NLP.
+???Demonstrated efficiency of fine-tuned BERT over LLMs for targeted, low-resource tasks.
+???Pre-print submission targeted for November 2025.
+Zero-Shot Cell Annotation with Foundation Models 2025
+???Implemented zero-shot pipelines for single-cell RNA-seq analysis, enabling malignant vs. normal classification
+and multi-class cell state prediction across ovarian, prostate, kidney, and pancreas cancer datasets.
+???Built preprocessing workflows for diverse data formats and integrated evaluation with Accuracy, F1, AUROC,
+and AUPRC.
+???Developed visualization tools (UMAP, performance plots) to assess model generalisation and batch effects.
+???LangCell GitHub ,Geneformer GitHub
+AI College Assistance App 2025
+???Built an AI-powered counselling platform to support students applying abroad (UK, US, Australia).
+???Implemented essay feedback using GPT-4, application timelines, portfolio builder, and AI chatbot for persona-
+lised guidance.
+???Full-stack development with React (TypeScript), FastAPI (Python), PostgreSQL, Firebase, and OpenAI API.
+???Designed scalable architecture with separate frontend, backend, and shared utilities.
+2
+
+Eva - Empathetic AI Assistant 2025
+???Developed an AI-driven emotional support app featuring a built-in chatbot designed to help users explore their
+thoughts, with additional features such as breathing exercises, a crisis helpline, and customizable themes.
+???Currently in development, this open-source project aims to provide accessible mental health support.
+???GitHub ,App link
+Python Simplified 2020
+???Authored a book on Python Programming, distributed over 30,000 copies to uplift underprivileged students.
+???Apple Books: Click Here, Python Simplified (Direct Link): Click here
+Honours
+???Vice-Chancellor???s Medal (Top 0.1%), University of Nottingham ??? Highest award for exceptional con-
+tributions as author, philanthropist, and student leader 2024
+???EEE Undergraduate Studies Award, UoN ??? Recognised for academic and departmental contributions 2024
+???Nottingham Advantage Awards, UoN ??? Student Leader (2024); OPAD & Peer Mentor (2023)
+???Union Prize & Student Representative of the Year, UoN ??? Outstanding contributions to student life
+2022
+???Top 6 Teen Heroes, India ??? Recognised nationally for social impact and philanthropic leadership 2021
+???Speaker Invitations ??? Invited speaker at World Summit AI, TEDx, and university conferences on AI and
+healthcare innovation
+3
+
