@@ -8,6 +8,9 @@
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- Preload hero image so it doesn't block LCP on slow connections -->
     <link rel="preload" as="image" href="IMG_8183.jpg" fetchpriority="high">
@@ -67,11 +70,11 @@
         </div>
         <nav aria-label="Primary" class="nav">
           <ul class="nav__list">
-            <li><a class="icon-btn" href="#about"      aria-label="About"><span aria-hidden="true">👤</span><span class="visually-hidden">About</span></a></li>
-            <li><a class="icon-btn" href="#skills"     aria-label="Tech stack"><span aria-hidden="true">🛠️</span><span class="visually-hidden">Tech</span></a></li>
-            <li><a class="icon-btn" href="#projects"   aria-label="Projects"><span aria-hidden="true">📂</span><span class="visually-hidden">Projects</span></a></li>
-            <li><a class="icon-btn" href="#beyond"     aria-label="Beyond the Lab"><span aria-hidden="true">🚴</span><span class="visually-hidden">Beyond the Lab</span></a></li>
-            <li><a class="icon-btn" href="#contact"    aria-label="Contact"><span aria-hidden="true">✉️</span><span class="visually-hidden">Contact</span></a></li>
+            <li><a class="icon-btn" href="#about" aria-label="About"><span aria-hidden="true">👤</span><span class="visually-hidden">About</span></a></li>
+            <li><a class="icon-btn" href="#skills" aria-label="Tech stack"><span aria-hidden="true">🛠️</span><span class="visually-hidden">Tech</span></a></li>
+            <li><a class="icon-btn" href="#projects" aria-label="Projects"><span aria-hidden="true">📂</span><span class="visually-hidden">Projects</span></a></li>
+            <li><a class="icon-btn" href="#beyond" aria-label="Beyond the Lab"><span aria-hidden="true">🚴</span><span class="visually-hidden">Beyond the Lab</span></a></li>
+            <li><a class="icon-btn" href="#contact" aria-label="Contact"><span aria-hidden="true">✉️</span><span class="visually-hidden">Contact</span></a></li>
             <li>
               <a class="icon-btn icon-btn--primary"
                  href="R_Maheswaran_CV_2026_Research.pdf"
@@ -121,8 +124,30 @@
         </figure>
       </section>
 
+      <!-- ─── IMPACT STRIP ──────────────────────────────────────────── -->
+      <section class="section impact-strip reveal">
+        <div class="impact-grid">
+          <div class="impact-stat">
+            <span class="impact-number">30,000+</span>
+            <span class="impact-label">Books Distributed</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-number">120+</span>
+            <span class="impact-label">Volunteers Led</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-number">19</span>
+            <span class="impact-label">Countries Reached</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-number">Top 0.1%</span>
+            <span class="impact-label">VC Medal, UoN</span>
+          </div>
+        </div>
+      </section>
+
       <!-- ─── WHAT I DO ─────────────────────────────────────────────── -->
-      <section id="what-i-do" class="section">
+      <section id="what-i-do" class="section reveal">
         <h2>What I Do</h2>
         <ul class="checklist">
           <li>Build <strong>AI-driven systems</strong> for healthcare products and research</li>
@@ -133,7 +158,7 @@
       </section>
 
       <!-- ─── TECH STACK ─────────────────────────────────────────────── -->
-      <section id="skills" class="section">
+      <section id="skills" class="section reveal">
         <h2>Tech Stack</h2>
         <div class="grid grid-3">
           <div class="card">
@@ -155,6 +180,8 @@
               <span class="tag">scikit-learn</span>
               <span class="tag">NumPy</span>
               <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
               <span class="tag">Scanpy</span>
               <span class="tag">scvi-tools</span>
               <span class="tag">UMAP</span>
@@ -171,6 +198,7 @@
               <span class="tag">React</span>
               <span class="tag">LangChain</span>
               <span class="tag">LangGraph</span>
+              <span class="tag">CrewAI</span>
               <span class="tag">Git</span>
               <span class="tag">LaTeX</span>
               <span class="tag">CUDA</span>
@@ -192,49 +220,93 @@
       </section>
 
       <!-- ─── FEATURED PROJECTS ─────────────────────────────────────── -->
-      <section id="projects" class="section">
+      <section id="projects" class="section reveal">
         <h2>Featured Projects</h2>
         <div class="stack">
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">Grounded by Design <span class="project__year">2026</span></h3>
-              <p>Latest project details coming soon.</p>
+              <p>Multilingual mental-health conversational agents built with agentic AI, in collaboration with Freedom from Torture. Designing trauma-informed, culturally sensitive systems with evidence-based therapeutic strategies and safe, interpretable reasoning workflows.</p>
+              <div class="project__tags">
+                <span class="tag">LangGraph</span>
+                <span class="tag">CrewAI</span>
+                <span class="tag">LLMs</span>
+                <span class="tag">AWS Bedrock</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">AI Agent for Literature Review (LitAgent) <span class="project__year">2025</span></h3>
               <p>LangGraph-driven multi-agent system automating literature reviews across arXiv and PubMed, with metadata enrichment from Crossref. Integrated agents (SearchAgent, SummarizerAgent, CriticAgent, ComparatorAgent) enabling structured synthesis, gap analysis, and future work identification. Supports multiple output formats (Markdown, JSON, CSV) with CLI and REST API access, plus a React/Vite/Tailwind frontend.</p>
+              <div class="project__tags">
+                <span class="tag">LangGraph</span>
+                <span class="tag">Python</span>
+                <span class="tag">React</span>
+                <span class="tag">Vite</span>
+                <span class="tag">Tailwind</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">Enhancing Aspect-Based Sentiment Analysis with BERT <span class="project__year">2025</span></h3>
-              <p>Improved BERT for Aspect Extraction, Sentiment Classification, and Review Comprehension. Combined adversarial training with P-SUM/H-SUM, surpassing prior state-of-the-art in domain-specific NLP. Demonstrated efficiency of fine-tuned BERT over LLMs for targeted, low-resource tasks. Pre-print submission targeted for November 2025.</p>
+              <p>Improved BERT for Aspect Extraction, Sentiment Classification, and Review Comprehension. Combined adversarial training with P-SUM/H-SUM, surpassing prior state-of-the-art in domain-specific NLP. Demonstrated efficiency of fine-tuned BERT over LLMs for targeted, low-resource tasks.</p>
+              <div class="project__tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">BERT</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Adversarial Training</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">Zero-Shot Cell Annotation with Foundation Models <span class="project__year">2025</span></h3>
               <p>Implemented zero-shot pipelines for single-cell RNA-seq analysis, enabling malignant vs. normal classification and multi-class cell state prediction across ovarian, prostate, kidney, and pancreas cancer datasets. Built preprocessing workflows and integrated evaluation with Accuracy, F1, AUROC, and AUPRC metrics. Developed visualisation tools (UMAP, performance plots) to assess model generalisation and batch effects.</p>
+              <div class="project__tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">Scanpy</span>
+                <span class="tag">scBERT</span>
+                <span class="tag">scGPT</span>
+                <span class="tag">Geneformer</span>
+                <span class="tag">LangCell</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">AI College Assistance App <span class="project__year">2025</span></h3>
               <p>Built an AI-powered counselling platform to support students applying abroad (UK, US, Australia). Implemented essay feedback using GPT-4, application timelines, portfolio builder, and AI chatbot for personalised guidance. Full-stack development with React (TypeScript), FastAPI (Python), PostgreSQL, Firebase, and OpenAI API.</p>
+              <div class="project__tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">GPT-4</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">Eva – Empathetic AI Assistant <span class="project__year">2025</span></h3>
               <p>Developed an AI-driven emotional support app featuring a built-in chatbot to help users explore their thoughts, with breathing exercises, a crisis helpline, and customisable themes. Currently in development; this open-source project aims to provide accessible mental health support.</p>
+              <div class="project__tags">
+                <span class="tag">Python</span>
+                <span class="tag">OpenAI API</span>
+                <span class="tag">Open Source</span>
+              </div>
             </div>
           </article>
           <article class="project">
             <div class="project__body">
               <h3 class="project__title">Python Simplified <span class="project__year">2020</span></h3>
               <p>Authored a book on Python Programming, distributed over 30,000 copies to uplift underprivileged students.</p>
+              <div class="project__tags">
+                <span class="tag">Python</span>
+                <span class="tag">Education</span>
+                <span class="tag">Apple Books</span>
+              </div>
             </div>
           </article>
         </div>
@@ -244,7 +316,7 @@
       </section>
 
       <!-- ─── EXPERIENCE ─────────────────────────────────────────────── -->
-      <section id="experience" class="section">
+      <section id="experience" class="section reveal">
         <h2>Experience</h2>
         <div class="stack">
 
@@ -307,7 +379,7 @@
       </section>
 
       <!-- ─── HONOURS ─────────────────────────────────────────────────── -->
-      <section id="honours" class="section">
+      <section id="honours" class="section reveal">
         <h2>Honours</h2>
         <ul class="checklist">
           <li>Vice-Chancellor's Medal (Top 0.1%), University of Nottingham – Highest award for exceptional contributions as author, philanthropist, and student leader (2024)</li>
@@ -320,7 +392,7 @@
       </section>
 
       <!-- ─── CV & HIGHLIGHTS ────────────────────────────────────────── -->
-      <section id="cv" class="section">
+      <section id="cv" class="section reveal">
         <h2>CV &amp; Highlights</h2>
         <div class="grid grid-2">
           <div>
@@ -351,7 +423,7 @@
       </section>
 
       <!-- ─── BEYOND THE LAB ─────────────────────────────────────────── -->
-      <section id="beyond" class="section">
+      <section id="beyond" class="section reveal">
         <h2>Beyond the Lab</h2>
         <p class="section-intro">Outside of research, I invest in people, endurance, and purpose.</p>
         <div class="grid activity-grid">
@@ -380,7 +452,7 @@
       </section>
 
       <!-- ─── CONTACT ─────────────────────────────────────────────────── -->
-      <section id="contact" class="section">
+      <section id="contact" class="section reveal">
         <h2>Contact</h2>
         <ul class="contact-list">
           <li><a href="mailto:ratneshwaran.maheswaran.21@ucl.ac.uk">ratneshwaran.maheswaran.21@ucl.ac.uk</a></li>
@@ -398,7 +470,7 @@
       </div>
     </footer>
 
-    <!-- TypeScript-compiled script — handles theme, year, and service worker -->
+    <!-- TypeScript-compiled script — handles theme, year, service worker, and scroll reveals -->
     <script src="script.js" defer></script>
   </body>
 </html>
