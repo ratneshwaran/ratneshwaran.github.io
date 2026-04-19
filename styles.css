@@ -17,19 +17,6 @@
   --heading:    #15140f;
 }
 
-[data-theme="dark"] {
-  --bg:         #15140f;
-  --text:       #d6d1c4;
-  --muted:      #8a8478;
-  --surface:    #1b1914;
-  --border:     #2b2820;
-  --rule:       #32302a;
-  --link:       #d78c8c;
-  --link-hover: #eaa8a8;
-  --accent:     #d78c8c;
-  --heading:    #f0ece4;
-}
-
 /* ─── RESET / BASE ──────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -103,21 +90,6 @@ p { margin: 0 0 0.9rem 0; }
   font-size: 0.9rem;
 }
 .nav__list a:hover { color: var(--heading); text-decoration: none; }
-
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--muted);
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 14px;
-}
-.theme-toggle:hover { border-color: var(--muted); color: var(--heading); }
 
 /* ─── SKIP LINK ─────────────────────────────────────────────────────── */
 .skip-link { position: absolute; left: -9999px; z-index: 100; }
